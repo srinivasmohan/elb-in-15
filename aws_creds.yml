@@ -1,0 +1,15 @@
+---
+auth:
+  :aws_access_key_id: AAAAAAAAAAAAAAAAAAAA
+  :aws_secret_access_key: 9999999990000019999999990000019999999990
+setup:
+  :key_name: AWS_SSH_Key_Pair_Name
+  :region: us-east-1
+  :image_id: ami-fd589594
+  :flavor_id: t1.micro
+  :groups:
+  - test_group_8080
+misc:
+  :nodecount: 5
+  :elbport: 80
+  :instanceport: 8080
