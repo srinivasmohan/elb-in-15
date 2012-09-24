@@ -5,6 +5,7 @@ Get an AWS ELB going backed by N nodes distributed over all AZs in that region..
 
 This sets up a ELB environment  by spawning N instances of Ubuntu 11.04 - these instances are spawned across multiple AZs in the given region and setup with a Apache listening on port 8080 with a simple CGI (for primitive "dynamic" content) and the ELB listening on port 80.
 
+Blog trackback - http://www.onepwr.org/2012/09/24/get-an-amazon-load-balancer-running-in/
 Instructions
 ============
 
