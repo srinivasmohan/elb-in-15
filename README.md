@@ -12,3 +12,4 @@ Instructions
 2. Update aws_creds.yml to to include your AWS Access key ID (`:aws_access_key_id`) and Access key secret(`:aws_secret_access_key`)
 3. Update `:groups` to a security group that you have(or create... Allow port `:instanceport` for now. Can block later to explicitly allow amazon-elb alone later).
 4. Run "elbsetup.rb <create|list|destroy> <elbname>" (ELB Name is required for List/Destroy alone) - `Destroy` will not ask for confirmation :-)
+5. The userdata script is needed to get a basic listener going that has some dynamic data returned - Just to make sure that each http get fetches something different...
